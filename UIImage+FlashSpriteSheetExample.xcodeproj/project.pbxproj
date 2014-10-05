@@ -17,6 +17,7 @@
 		4DD25A7D19E12DDB000F1829 /* UIImage+FlashSpriteSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD25A7C19E12DDB000F1829 /* UIImage+FlashSpriteSheet.m */; };
 		4DD25A8019E12EF9000F1829 /* apng.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DD25A7E19E12EF9000F1829 /* apng.json */; };
 		4DD25A8119E12EF9000F1829 /* apng.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD25A7F19E12EF9000F1829 /* apng.png */; };
+		4DD25A8419E13679000F1829 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 4DD25A8219E13679000F1829 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4DD25A7C19E12DDB000F1829 /* UIImage+FlashSpriteSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlashSpriteSheet.m"; sourceTree = "<group>"; };
 		4DD25A7E19E12EF9000F1829 /* apng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = apng.json; sourceTree = "<group>"; };
 		4DD25A7F19E12EF9000F1829 /* apng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apng.png; sourceTree = "<group>"; };
+		4DD25A8219E13679000F1829 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		4DD25A4819E12B94000F1829 = {
 			isa = PBXGroup;
 			children = (
+				4DD25A8219E13679000F1829 /* README */,
 				4DD25A7A19E12BB3000F1829 /* UIImage+FlashSpriteSheet */,
 				4DD25A5319E12B94000F1829 /* UIImage+FlashSpriteSheetExample */,
 				4DD25A6D19E12B94000F1829 /* UIImage+FlashSpriteSheetExampleTests */,
@@ -218,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD25A8419E13679000F1829 /* README in Resources */,
 				4DD25A6019E12B94000F1829 /* Main.storyboard in Resources */,
 				4DD25A8119E12EF9000F1829 /* apng.png in Resources */,
 				4DD25A6519E12B94000F1829 /* LaunchScreen.xib in Resources */,
