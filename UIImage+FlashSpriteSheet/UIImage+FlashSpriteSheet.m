@@ -14,7 +14,7 @@
 	NSURL* url = [[NSBundle mainBundle] URLForResource:name withExtension:@"json"];
 	NSError* error;
 	NSData* data = [NSData dataWithContentsOfURL:url];
-	NSDictionary *jsonDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
+	NSDictionary *jsonDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
 	NSArray* framesData = jsonDictionary[@"frames"];
 	
 	NSString* imageName = [NSString stringWithFormat:@"%@.png", name];
@@ -26,6 +26,7 @@
 		UIImage* img = [self clipImageRect:rect source:spriteSheet_img];
 		[images addObject:img];
 	}
+	
 	
 	NSTimeInterval duration = images.count * (1.0/60);
 	return [self animatedImageWithImages:images duration:duration];

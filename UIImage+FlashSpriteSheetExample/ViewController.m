@@ -18,6 +18,11 @@
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	
+
+}
+
+
+-(IBAction)onLoadButtonTap:(id)sender{
 	NSDate* s = [NSDate date];
 	UIImage* anime_img = [UIImage animatedImageFromSpriteSheetNamed:@"apng"];
 	NSLog( @"load complete %fms.", [[NSDate date] timeIntervalSinceDate:s]*1000 );
