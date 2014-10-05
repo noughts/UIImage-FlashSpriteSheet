@@ -14,6 +14,9 @@
 		4DD25A6219E12B94000F1829 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD25A6119E12B94000F1829 /* Images.xcassets */; };
 		4DD25A6519E12B94000F1829 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD25A6319E12B94000F1829 /* LaunchScreen.xib */; };
 		4DD25A7119E12B94000F1829 /* UIImage_FlashSpriteSheetExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD25A7019E12B94000F1829 /* UIImage_FlashSpriteSheetExampleTests.m */; };
+		4DD25A7D19E12DDB000F1829 /* UIImage+FlashSpriteSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD25A7C19E12DDB000F1829 /* UIImage+FlashSpriteSheet.m */; };
+		4DD25A8019E12EF9000F1829 /* apng.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DD25A7E19E12EF9000F1829 /* apng.json */; };
+		4DD25A8119E12EF9000F1829 /* apng.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD25A7F19E12EF9000F1829 /* apng.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		4DD25A6A19E12B94000F1829 /* UIImage+FlashSpriteSheetExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIImage+FlashSpriteSheetExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD25A6F19E12B94000F1829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DD25A7019E12B94000F1829 /* UIImage_FlashSpriteSheetExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImage_FlashSpriteSheetExampleTests.m; sourceTree = "<group>"; };
+		4DD25A7B19E12DDB000F1829 /* UIImage+FlashSpriteSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FlashSpriteSheet.h"; sourceTree = "<group>"; };
+		4DD25A7C19E12DDB000F1829 /* UIImage+FlashSpriteSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlashSpriteSheet.m"; sourceTree = "<group>"; };
+		4DD25A7E19E12EF9000F1829 /* apng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = apng.json; sourceTree = "<group>"; };
+		4DD25A7F19E12EF9000F1829 /* apng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apng.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +91,8 @@
 			children = (
 				4DD25A5819E12B94000F1829 /* AppDelegate.h */,
 				4DD25A5919E12B94000F1829 /* AppDelegate.m */,
+				4DD25A7E19E12EF9000F1829 /* apng.json */,
+				4DD25A7F19E12EF9000F1829 /* apng.png */,
 				4DD25A5B19E12B94000F1829 /* ViewController.h */,
 				4DD25A5C19E12B94000F1829 /* ViewController.m */,
 				4DD25A5E19E12B94000F1829 /* Main.storyboard */,
@@ -123,6 +132,8 @@
 		4DD25A7A19E12BB3000F1829 /* UIImage+FlashSpriteSheet */ = {
 			isa = PBXGroup;
 			children = (
+				4DD25A7B19E12DDB000F1829 /* UIImage+FlashSpriteSheet.h */,
+				4DD25A7C19E12DDB000F1829 /* UIImage+FlashSpriteSheet.m */,
 			);
 			path = "UIImage+FlashSpriteSheet";
 			sourceTree = "<group>";
@@ -208,8 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DD25A6019E12B94000F1829 /* Main.storyboard in Resources */,
+				4DD25A8119E12EF9000F1829 /* apng.png in Resources */,
 				4DD25A6519E12B94000F1829 /* LaunchScreen.xib in Resources */,
 				4DD25A6219E12B94000F1829 /* Images.xcassets in Resources */,
+				4DD25A8019E12EF9000F1829 /* apng.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +243,7 @@
 				4DD25A5D19E12B94000F1829 /* ViewController.m in Sources */,
 				4DD25A5A19E12B94000F1829 /* AppDelegate.m in Sources */,
 				4DD25A5719E12B94000F1829 /* main.m in Sources */,
+				4DD25A7D19E12DDB000F1829 /* UIImage+FlashSpriteSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +365,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Koichi Yamamoto (F5E22YQX2X)";
 				INFOPLIST_FILE = "UIImage+FlashSpriteSheetExample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -362,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UIImage+FlashSpriteSheetExample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

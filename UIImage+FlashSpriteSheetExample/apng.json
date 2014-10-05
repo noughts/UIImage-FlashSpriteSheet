@@ -1,0 +1,491 @@
+﻿{"frames": [
+
+{
+	"filename": "シンボル 1 インスタンス 10000",
+	"frame": {"x":0,"y":0,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10001",
+	"frame": {"x":120,"y":0,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10002",
+	"frame": {"x":240,"y":0,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10003",
+	"frame": {"x":360,"y":0,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10004",
+	"frame": {"x":480,"y":0,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10005",
+	"frame": {"x":600,"y":0,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10006",
+	"frame": {"x":720,"y":0,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10007",
+	"frame": {"x":840,"y":0,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10008",
+	"frame": {"x":0,"y":121,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10009",
+	"frame": {"x":120,"y":121,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10010",
+	"frame": {"x":240,"y":121,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10011",
+	"frame": {"x":360,"y":121,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10012",
+	"frame": {"x":480,"y":121,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10013",
+	"frame": {"x":600,"y":121,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10014",
+	"frame": {"x":720,"y":121,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10015",
+	"frame": {"x":840,"y":121,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10016",
+	"frame": {"x":0,"y":242,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10017",
+	"frame": {"x":120,"y":242,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10018",
+	"frame": {"x":240,"y":242,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10019",
+	"frame": {"x":360,"y":242,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10020",
+	"frame": {"x":480,"y":242,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10021",
+	"frame": {"x":600,"y":242,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10022",
+	"frame": {"x":720,"y":242,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10023",
+	"frame": {"x":840,"y":242,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10024",
+	"frame": {"x":0,"y":363,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10025",
+	"frame": {"x":120,"y":363,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10026",
+	"frame": {"x":240,"y":363,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10027",
+	"frame": {"x":360,"y":363,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10028",
+	"frame": {"x":480,"y":363,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10029",
+	"frame": {"x":600,"y":363,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10030",
+	"frame": {"x":720,"y":363,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10031",
+	"frame": {"x":840,"y":363,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10032",
+	"frame": {"x":0,"y":484,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10033",
+	"frame": {"x":120,"y":484,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10034",
+	"frame": {"x":240,"y":484,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10035",
+	"frame": {"x":360,"y":484,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10036",
+	"frame": {"x":480,"y":484,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10037",
+	"frame": {"x":600,"y":484,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10038",
+	"frame": {"x":720,"y":484,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10039",
+	"frame": {"x":840,"y":484,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10040",
+	"frame": {"x":0,"y":605,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10041",
+	"frame": {"x":120,"y":605,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10042",
+	"frame": {"x":240,"y":605,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10043",
+	"frame": {"x":360,"y":605,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10044",
+	"frame": {"x":480,"y":605,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10045",
+	"frame": {"x":600,"y":605,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10046",
+	"frame": {"x":720,"y":605,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10047",
+	"frame": {"x":840,"y":605,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10048",
+	"frame": {"x":0,"y":726,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10049",
+	"frame": {"x":120,"y":726,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10050",
+	"frame": {"x":240,"y":726,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10051",
+	"frame": {"x":360,"y":726,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10052",
+	"frame": {"x":480,"y":726,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10053",
+	"frame": {"x":600,"y":726,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10054",
+	"frame": {"x":720,"y":726,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10055",
+	"frame": {"x":840,"y":726,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10056",
+	"frame": {"x":0,"y":847,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10057",
+	"frame": {"x":120,"y":847,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10058",
+	"frame": {"x":240,"y":847,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}
+,{
+	"filename": "シンボル 1 インスタンス 10059",
+	"frame": {"x":360,"y":847,"w":120,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":121},
+	"sourceSize": {"w":120,"h":121}
+}],
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "14.0.0.110",
+	"image": "apng.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1"
+}
+}

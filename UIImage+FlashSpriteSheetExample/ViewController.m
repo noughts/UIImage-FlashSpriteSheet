@@ -7,16 +7,19 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+FlashSpriteSheet.h"
 
-@interface ViewController ()
 
-@end
-
-@implementation ViewController
+@implementation ViewController{
+	__weak IBOutlet UIImageView* _iv;
+}
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+	UIImage* anime_img = [UIImage animatedImageFromSpriteSheetNamed:@"apng"];
+	_iv.image = anime_img;
 }
 
 - (void)didReceiveMemoryWarning {
