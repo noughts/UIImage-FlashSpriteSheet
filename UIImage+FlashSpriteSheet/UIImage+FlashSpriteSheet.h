@@ -10,6 +10,7 @@
 
 @interface UIImage (FlashSpriteSheet)
 
++(void)loadAnimatedImageFromSpriteSheetNamed:(NSString*)name completion:(void (^)(UIImage* image))completion;
 +(instancetype)animatedImageFromSpriteSheetNamed:(NSString*)name;
 
 @end

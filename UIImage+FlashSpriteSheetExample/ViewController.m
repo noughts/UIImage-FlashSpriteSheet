@@ -29,6 +29,15 @@
 	_iv.image = anime_img;
 }
 
+-(IBAction)onLoadAsyncButtonTap:(id)sender{
+	NSDate* s = [NSDate date];
+	[UIImage loadAnimatedImageFromSpriteSheetNamed:@"guideAnimations_cut_stack" completion:^(UIImage *image) {
+		NSLog( @"load complete %fms.", [[NSDate date] timeIntervalSinceDate:s]*1000 );
+		_iv.image = image;
+	}];
+}
+
+
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
 	// Dispose of any resources that can be recreated.

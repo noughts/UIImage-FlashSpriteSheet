@@ -11,6 +11,17 @@
 
 @implementation UIImage (FlashSpriteSheet)
 
++(void)loadAnimatedImageFromSpriteSheetNamed:(NSString*)name completion:(void (^)(UIImage* image))completion{
+	NSOperationQueue* queue = [NSOperationQueue new];
+	[queue addOperationWithBlock:^{
+		UIImage* animatedImage = [self animatedImageFromSpriteSheetNamed:name];
+		[[NSOperationQueue mainQueue] addOperationWithBlock:^{
+			completion( animatedImage );
+		}];
+	}];
+}
+
+
 +(instancetype)animatedImageFromSpriteSheetNamed:(NSString*)name{
 	NSURL* url = [[NSBundle mainBundle] URLForResource:name withExtension:@"json"];
 	NSError* error;
@@ -47,6 +58,7 @@
 	NSTimeInterval duration = images.count * (1.0/60);
 	return [self animatedImageWithImages:images duration:duration];
 }
+
 
 
 
