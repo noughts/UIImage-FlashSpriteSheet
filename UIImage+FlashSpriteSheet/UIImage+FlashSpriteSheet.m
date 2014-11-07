@@ -21,6 +21,16 @@
 	if( memoryHack ){
 		NSString* imageName = [[NSBundle mainBundle] pathForResource:name ofType:@"png"];
 		UIImage* spriteSheet_img = [UIImage imageWithContentsOfFile:imageName];
+		
+		// imageNamedで画像をロードすると、永遠にキャッシュが残るが、imageWithContentsOfFileでロードすると、スプライトシートから切り出す際のdrawAtPointに必要な内部描画処理が激遅なので、
+		// 一旦描画したものをあとでスプライトシートから切り出すようにすると高速化するというハック
+		// http://blog.syuhari.jp/archives/1694
+		CGImageRef temp_ref = [spriteSheet_img CGImage];
+		UIGraphicsBeginImageContext(CGSizeMake(CGImageGetWidth(temp_ref), CGImageGetHeight(temp_ref)));
+		[spriteSheet_img drawAtPoint:CGPointMake(0,0)];
+		spriteSheet_img = UIGraphicsGetImageFromCurrentImageContext();
+		UIGraphicsEndImageContext();
+		
 		imageRef = spriteSheet_img.CGImage;
 	} else {
 		NSString* imageName = [NSString stringWithFormat:@"%@.png", name];
@@ -31,7 +41,6 @@
 	NSDictionary *jsonDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
 	NSMutableArray* images = [NSMutableArray new];
 	for (NSDictionary* dic in jsonDictionary[@"frames"]) {
-		NSLog( @"a" );
 		@autoreleasepool {
 			NNSpriteSheetFrameData* frameData = [[NNSpriteSheetFrameData alloc] initWithDictionary:dic];
 			UIImage* img = [self frameImageFromSpriteSheet:imageRef withFrameData:frameData];
@@ -51,7 +60,7 @@
 
 +(UIImage*)frameImageFromSpriteSheet:(CGImageRef)source withFrameData:(NNSpriteSheetFrameData*)frameData{
 	CGImageRef clip = CGImageCreateWithImageInRect( source, frameData.frame );
-	UIImage* clipped_img = [UIImage imageWithCGImage:clip scale:1 orientation:UIImageOrientationUp];
+	UIImage* clipped_img = [UIImage imageWithCGImage:clip];
 	UIImage* result_img;
 	if( frameData.trimmed ){
 		UIGraphicsBeginImageContext( frameData.sourceSize );
