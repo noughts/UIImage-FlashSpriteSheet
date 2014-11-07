@@ -659,7 +659,7 @@
 "meta": {
 	"app": "Adobe Flash Professional",
 	"version": "14.1.0.96",
-	"image": "guideAnimations_cut_stack.png",
+	"image": "guideAnimations.png",
 	"format": "RGBA8888",
 	"size": {"w":1024,"h":2048},
 	"scale": "1"

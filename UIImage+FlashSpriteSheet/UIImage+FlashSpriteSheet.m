@@ -16,15 +16,22 @@
 	NSError* error;
 	NSData* data = [NSData dataWithContentsOfURL:url];
 	
-	NSString* imageName1 = [NSString stringWithFormat:@"%@.png", name];
-	NSString* imageName2 = [[NSBundle mainBundle] pathForResource:name ofType:@"png"];
-	UIImage* spriteSheet_img;
-	spriteSheet_img = [UIImage imageNamed:imageName1];
-	CGImageRef imageRef = spriteSheet_img.CGImage;
+	BOOL memoryHack = YES;
+	CGImageRef imageRef;
+	if( memoryHack ){
+		NSString* imageName = [[NSBundle mainBundle] pathForResource:name ofType:@"png"];
+		UIImage* spriteSheet_img = [UIImage imageWithContentsOfFile:imageName];
+		imageRef = spriteSheet_img.CGImage;
+	} else {
+		NSString* imageName = [NSString stringWithFormat:@"%@.png", name];
+		UIImage* spriteSheet_img = [UIImage imageNamed:imageName];
+		imageRef = spriteSheet_img.CGImage;
+	}
 	
 	NSDictionary *jsonDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
 	NSMutableArray* images = [NSMutableArray new];
 	for (NSDictionary* dic in jsonDictionary[@"frames"]) {
+		NSLog( @"a" );
 		@autoreleasepool {
 			NNSpriteSheetFrameData* frameData = [[NNSpriteSheetFrameData alloc] initWithDictionary:dic];
 			UIImage* img = [self frameImageFromSpriteSheet:imageRef withFrameData:frameData];
