@@ -68,12 +68,16 @@
 
 
 +(UIImage*)frameImageFromSpriteSheet:(UIImage*)source withFrameData:(NNSpriteSheetFrameData*)frameData{
+	CGFloat scale = [UIScreen mainScreen].scale;
+	
 	CGImageRef clip = CGImageCreateWithImageInRect( source.CGImage, frameData.frame );
-	UIImage* clipped_img = [UIImage imageWithCGImage:clip];
+	UIImage* clipped_img = [UIImage imageWithCGImage:clip scale:scale orientation:UIImageOrientationUp];
 	UIImage* result_img;
 	if( frameData.trimmed ){
-		UIGraphicsBeginImageContext( frameData.sourceSize );
-		[clipped_img drawAtPoint:frameData.spriteSourceSize.origin];
+		CGSize size = CGSizeMake( frameData.sourceSize.width/scale, frameData.sourceSize.height/scale );
+		UIGraphicsBeginImageContextWithOptions( size, NO, scale );
+		CGPoint pt = CGPointMake(frameData.spriteSourceSize.origin.x/scale, frameData.spriteSourceSize.origin.y/scale );
+		[clipped_img drawAtPoint:pt];
 		result_img = UIGraphicsGetImageFromCurrentImageContext();
 		UIGraphicsEndImageContext();
 	} else {

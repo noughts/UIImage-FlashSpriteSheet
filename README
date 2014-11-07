@@ -1,3 +1,5 @@
+pod "UIImage+FlashSpriteSheet", :git => 'https://github.com/noughts/UIImage-FlashSpriteSheet.git'
+
 Flash Professional で書きだしたスプライトシートを読み込むUIImageカテゴリです。
 以下の設定でスプライトシートを書き出し、JSONとPNGをプロジェクトに追加して使いましょう。
 - アルゴリズム: 基本

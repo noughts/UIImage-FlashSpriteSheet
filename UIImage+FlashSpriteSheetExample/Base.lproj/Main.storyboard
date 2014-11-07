@@ -17,8 +17,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="par-oM-A6A">
-                                <rect key="frame" x="59" y="445" width="46" height="30"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H3l-rd-ler">
+                                <rect key="frame" x="10" y="134" width="300" height="300"/>
+                                <color key="backgroundColor" red="0.95686280729999995" green="0.70980393890000004" blue="0.36470589040000001" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="OAt-a4-ymI"/>
+                                    <constraint firstAttribute="width" constant="300" id="jUy-tl-yjc"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="par-oM-A6A">
+                                <rect key="frame" x="44" y="494" width="35" height="30"/>
                                 <state key="normal" title="Load">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -26,15 +34,8 @@
                                     <action selector="onLoadButtonTap:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xyj-Ni-Gek"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H3l-rd-ler">
-                                <rect key="frame" x="40" y="164" width="240" height="240"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="240" id="Dnm-Rm-Tve"/>
-                                    <constraint firstAttribute="width" constant="240" id="gEi-8Q-1lj"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9v-fw-5D1">
-                                <rect key="frame" x="178" y="445" width="81" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9v-fw-5D1">
+                                <rect key="frame" x="195" y="494" width="81" height="30"/>
                                 <state key="normal" title="Load Async">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -42,14 +43,20 @@
                                     <action selector="onLoadAsyncButtonTap:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9fg-WZ-yru"/>
                                 </connections>
                             </button>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="QVU-kd-bgm">
-                                <rect key="frame" x="150" y="124" width="20" height="20"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="QVU-kd-bgm">
+                                <rect key="frame" x="150" y="81" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="H3l-rd-ler" secondAttribute="centerY" id="jr8-XF-Yla"/>
-                            <constraint firstAttribute="centerX" secondItem="H3l-rd-ler" secondAttribute="centerX" id="uRj-sA-JA5"/>
+                            <constraint firstItem="H3l-rd-ler" firstAttribute="top" secondItem="QVU-kd-bgm" secondAttribute="bottom" constant="33" id="GKz-w2-ydj"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="M9v-fw-5D1" secondAttribute="bottom" constant="44" id="T5u-3v-d5H"/>
+                            <constraint firstAttribute="centerY" secondItem="H3l-rd-ler" secondAttribute="centerY" id="XJE-gL-RF4"/>
+                            <constraint firstAttribute="centerX" secondItem="H3l-rd-ler" secondAttribute="centerX" id="lR9-JL-HzR"/>
+                            <constraint firstAttribute="centerX" secondItem="QVU-kd-bgm" secondAttribute="centerX" id="m8Z-EQ-Izg"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="par-oM-A6A" secondAttribute="bottom" constant="44" id="pGf-VE-lOv"/>
+                            <constraint firstItem="par-oM-A6A" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="44" id="vgA-rS-key"/>
+                            <constraint firstAttribute="trailing" secondItem="M9v-fw-5D1" secondAttribute="trailing" constant="44" id="vrA-Cz-636"/>
                         </constraints>
                     </view>
                     <connections>
