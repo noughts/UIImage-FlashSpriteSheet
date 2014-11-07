@@ -16,17 +16,21 @@
 	NSError* error;
 	NSData* data = [NSData dataWithContentsOfURL:url];
 	
-	NSString* imageName = [NSString stringWithFormat:@"%@.png", name];
-	UIImage* spriteSheet_img = [UIImage imageNamed:imageName];
+	NSString* imageName1 = [NSString stringWithFormat:@"%@.png", name];
+	NSString* imageName2 = [[NSBundle mainBundle] pathForResource:name ofType:@"png"];
+	UIImage* spriteSheet_img;
+	spriteSheet_img = [UIImage imageNamed:imageName1];
+	CGImageRef imageRef = spriteSheet_img.CGImage;
 	
 	NSDictionary *jsonDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
 	NSMutableArray* images = [NSMutableArray new];
 	for (NSDictionary* dic in jsonDictionary[@"frames"]) {
-		NNSpriteSheetFrameData* frameData = [[NNSpriteSheetFrameData alloc] initWithDictionary:dic];
-		UIImage* img = [self frameImageFromSpriteSheet:spriteSheet_img withFrameData:frameData];
-		[images addObject:img];
+		@autoreleasepool {
+			NNSpriteSheetFrameData* frameData = [[NNSpriteSheetFrameData alloc] initWithDictionary:dic];
+			UIImage* img = [self frameImageFromSpriteSheet:imageRef withFrameData:frameData];
+			[images addObject:img];
+		}
 	}
-
 	NSTimeInterval duration = images.count * (1.0/60);
 	return [self animatedImageWithImages:images duration:duration];
 }
@@ -38,8 +42,8 @@
 
 
 
-+(UIImage*)frameImageFromSpriteSheet:(UIImage*)source withFrameData:(NNSpriteSheetFrameData*)frameData{
-	CGImageRef clip = CGImageCreateWithImageInRect( source.CGImage, frameData.frame );
++(UIImage*)frameImageFromSpriteSheet:(CGImageRef)source withFrameData:(NNSpriteSheetFrameData*)frameData{
+	CGImageRef clip = CGImageCreateWithImageInRect( source, frameData.frame );
 	UIImage* clipped_img = [UIImage imageWithCGImage:clip scale:1 orientation:UIImageOrientationUp];
 	UIImage* result_img;
 	if( frameData.trimmed ){

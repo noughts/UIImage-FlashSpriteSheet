@@ -24,7 +24,7 @@
 
 -(IBAction)onLoadButtonTap:(id)sender{
 	NSDate* s = [NSDate date];
-	UIImage* anime_img = [UIImage animatedImageFromSpriteSheetNamed:@"guideAnimations_cut"];
+	UIImage* anime_img = [UIImage animatedImageFromSpriteSheetNamed:@"guideAnimations_cut_stack"];
 	NSLog( @"load complete %fms.", [[NSDate date] timeIntervalSinceDate:s]*1000 );
 	_iv.image = anime_img;
 }
