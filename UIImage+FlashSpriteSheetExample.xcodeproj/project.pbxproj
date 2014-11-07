@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D4E8F931A0C76E600246248 /* guideAnimations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D4E8F911A0C76E600246248 /* guideAnimations.json */; };
 		4D4E8F941A0C76E600246248 /* guideAnimations.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4E8F921A0C76E600246248 /* guideAnimations.png */; };
+		4D4E8FCB1A0C944600246248 /* NNSpriteSheetFrameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E8FCA1A0C944600246248 /* NNSpriteSheetFrameData.m */; };
 		4DD25A5719E12B94000F1829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD25A5619E12B94000F1829 /* main.m */; };
 		4DD25A5A19E12B94000F1829 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD25A5919E12B94000F1829 /* AppDelegate.m */; };
 		4DD25A5D19E12B94000F1829 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD25A5C19E12B94000F1829 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* Begin PBXFileReference section */
 		4D4E8F911A0C76E600246248 /* guideAnimations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guideAnimations.json; sourceTree = "<group>"; };
 		4D4E8F921A0C76E600246248 /* guideAnimations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guideAnimations.png; sourceTree = "<group>"; };
+		4D4E8FC91A0C944600246248 /* NNSpriteSheetFrameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNSpriteSheetFrameData.h; sourceTree = "<group>"; };
+		4D4E8FCA1A0C944600246248 /* NNSpriteSheetFrameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNSpriteSheetFrameData.m; sourceTree = "<group>"; };
 		4DD25A5119E12B94000F1829 /* UIImage+FlashSpriteSheetExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIImage+FlashSpriteSheetExample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD25A5519E12B94000F1829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DD25A5619E12B94000F1829 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 		4DD25A7A19E12BB3000F1829 /* UIImage+FlashSpriteSheet */ = {
 			isa = PBXGroup;
 			children = (
+				4D4E8FC91A0C944600246248 /* NNSpriteSheetFrameData.h */,
+				4D4E8FCA1A0C944600246248 /* NNSpriteSheetFrameData.m */,
 				4DD25A7B19E12DDB000F1829 /* UIImage+FlashSpriteSheet.h */,
 				4DD25A7C19E12DDB000F1829 /* UIImage+FlashSpriteSheet.m */,
 			);
@@ -254,6 +259,7 @@
 			files = (
 				4DD25A5D19E12B94000F1829 /* ViewController.m in Sources */,
 				4DD25A5A19E12B94000F1829 /* AppDelegate.m in Sources */,
+				4D4E8FCB1A0C944600246248 /* NNSpriteSheetFrameData.m in Sources */,
 				4DD25A5719E12B94000F1829 /* main.m in Sources */,
 				4DD25A7D19E12DDB000F1829 /* UIImage+FlashSpriteSheet.m in Sources */,
 			);
