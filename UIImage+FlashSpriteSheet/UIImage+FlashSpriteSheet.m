@@ -21,8 +21,18 @@
 	}];
 }
 
++(void)createImageArrayFromSpriteSheetNamed:(NSString*)name completion:(void (^)(NSArray<UIImage*>* imageArray))completion{
+	NSOperationQueue* queue = [NSOperationQueue new];
+	[queue addOperationWithBlock:^{
+		NSArray* imageArray = [self createImageArrayFromSrpiteSheetNamed:name];
+		[[NSOperationQueue mainQueue] addOperationWithBlock:^{
+			completion( imageArray );
+		}];
+	}];
+}
 
-+(instancetype)animatedImageFromSpriteSheetNamed:(NSString*)name{
+
++(NSArray<UIImage*>*)createImageArrayFromSrpiteSheetNamed:(NSString*)name{
 	NSURL* url = [[NSBundle mainBundle] URLForResource:name withExtension:@"json"];
 	NSError* error;
 	NSData* data = [NSData dataWithContentsOfURL:url];
@@ -55,6 +65,13 @@
 			[images addObject:img];
 		}
 	}
+	return images;
+}
+
+
+
++(instancetype)animatedImageFromSpriteSheetNamed:(NSString*)name{
+	NSArray* images = [self createImageArrayFromSrpiteSheetNamed:name];
 	NSTimeInterval duration = images.count * (1.0/60);
 	return [self animatedImageWithImages:images duration:duration];
 }

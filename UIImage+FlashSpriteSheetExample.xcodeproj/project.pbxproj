@@ -60,7 +60,7 @@
 		4DD25A6F19E12B94000F1829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DD25A7019E12B94000F1829 /* UIImage_FlashSpriteSheetExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImage_FlashSpriteSheetExampleTests.m; sourceTree = "<group>"; };
 		4DD25A7B19E12DDB000F1829 /* UIImage+FlashSpriteSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FlashSpriteSheet.h"; sourceTree = "<group>"; };
-		4DD25A7C19E12DDB000F1829 /* UIImage+FlashSpriteSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlashSpriteSheet.m"; sourceTree = "<group>"; };
+		4DD25A7C19E12DDB000F1829 /* UIImage+FlashSpriteSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlashSpriteSheet.m"; sourceTree = "<group>"; wrapsLines = 0; };
 		4DD25A7E19E12EF9000F1829 /* apng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = apng.json; sourceTree = "<group>"; };
 		4DD25A7F19E12EF9000F1829 /* apng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apng.png; sourceTree = "<group>"; };
 		4DD25A8219E13679000F1829 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
@@ -225,6 +225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

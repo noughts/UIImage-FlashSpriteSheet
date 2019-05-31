@@ -13,4 +13,6 @@
 +(void)loadAnimatedImageFromSpriteSheetNamed:(NSString*)name completion:(void (^)(UIImage* image))completion;
 +(instancetype)animatedImageFromSpriteSheetNamed:(NSString*)name;
 
++(void)createImageArrayFromSpriteSheetNamed:(NSString*)name completion:(void (^)(NSArray<UIImage*>* imageArray))completion;
+
 @end
